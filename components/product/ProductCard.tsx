@@ -105,6 +105,7 @@ function ProductCard({ product, preload, itemListName, layout }: Props) {
         l?.onMouseOver?.card === "Move up" &&
         "duration-500 transition-translate ease-in-out lg:hover:-translate-y-2"
       }
+      hover:drop-shadow
       `}
       data-deco="view-product"
     >
